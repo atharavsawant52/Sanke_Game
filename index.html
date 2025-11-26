@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game - Neon Edition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">🐍 Neon Snake</h1>
+
+      <div class="hud">
+        <div class="hud-item">High Score: <span id="high-score">00</span></div>
+        <div class="hud-item">Score: <span id="score">00</span></div>
+        <div class="hud-item">Time: <span id="time">00:00</span></div>
+      </div>
+
+      <div id="board" class="board"></div>
+    </main>
+
+    <div class="modal">
+      <div class="modal-box start-screen">
+        <h2>Press Start to Play</h2>
+        <button id="startBtn">Start Game</button>
+      </div>
+
+      <div class="modal-box game-over-screen">
+        <h2>Game Over</h2>
+        <button id="closeBtn">Restart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
